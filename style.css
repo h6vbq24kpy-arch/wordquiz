@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body {
+    background-color: #CCCCCC;
+}
+
+.head {
+   text-align: center; 
+}
+
+.explain {
+    text-align: center;
+}
+
+.word {
+    text-align: center;
+}
+
+.answer {
+    margin: auto;
+    width: 300px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+button:hover{
+    background-color: #9966FF;
+}
+
+.next button:hover {
+    background-color: #CCCCCC;
+}
+
+.Correct {
+    border-radius: 200px;
+}
+
+.Notcorrect1 {
+    border-radius: 200px;
+}
+
+.Notcorrect2 {
+    border-radius: 200px;
+}
+
+.judge {
+    text-align: center;
+}
+
+.next {
+    text-align: center;
+}
